@@ -1,0 +1,42 @@
+html {
+    display: grid;
+    height: 100dvh;
+    font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 28rem;
+    margin: auto;
+    align-items: center;
+    padding: 1.5rem;
+    background-image:
+            linear-gradient(to bottom right, red, transparent),
+            linear-gradient(to bottom left, blue, transparent),
+            linear-gradient(to top right, green, transparent),
+            linear-gradient(to top left, yellow, transparent);
+    background-blend-mode: screen;
+    color: white;
+}
+#blocks {
+    display: flex;
+    gap: 20px;
+    .color-block {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+}
+#rgb-color {
+    font-size: 3rem;
+}
+* {
+    margin: 0;
+}
+button {
+    font: inherit;
+    background-color: lightgrey;
+    padding: 0.5rem 1rem;
+}
