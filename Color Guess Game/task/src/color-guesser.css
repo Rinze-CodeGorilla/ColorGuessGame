@@ -2,6 +2,7 @@ html {
     display: grid;
     height: 100dvh;
     font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+    text-shadow: 0 0 .1em #000,0 0 .1em #000,0 0 .1em #000;
 }
 body {
     display: flex;
@@ -27,6 +28,7 @@ body {
         height: 40px;
         border-radius: 5px;
         border: 1px solid white;
+        box-shadow: 0 0 1px #000,0 0 1px #000,0 0 1px #000;
     }
 }
 #rgb-color {
@@ -37,6 +39,8 @@ body {
 }
 button {
     font: inherit;
-    background-color: lightgrey;
+    color: inherit;
+    text-shadow: inherit;
+    background-color: rgb(0,0,0,20%);
     padding: 0.5rem 1rem;
 }
